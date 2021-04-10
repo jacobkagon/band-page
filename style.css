@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0
+}
+
+.nav, ul {
+    margin: 0;
+
+}
+
+.main-header {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190622/ourmid/pngtree-hip-hop-music-background-illustration-education-training-music-carnival-image_208997.jpg");
+    background-position: center;
+    padding-bottom: 30px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+    color: rgb(3, 3, 3);
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+
